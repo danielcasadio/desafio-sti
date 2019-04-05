@@ -58,7 +58,6 @@ class Leitor:
     def grava_email(self, uffmail, matricula):
         infile = open(self.arquivo, 'r')
         i = csv.reader(infile)
-        # campos = i.fieldnames
         outfile = open('temporario.csv', 'a', newline ='\n')
         f = csv.writer(outfile)
         for row in i:
@@ -75,7 +74,7 @@ class Leitor:
         i = csv.reader(infile)
         outfile = open(self.arquivo, 'w+', newline ='\n')
         outfile.truncate()
-        outfile.close
+        outfile.close()
         outfile = open(self.arquivo, 'a', newline ='\n')
         f = csv.writer(outfile)
         outfile.truncate()
@@ -83,4 +82,5 @@ class Leitor:
             f.writerow(row)  
         
         infile.close()
-        outfile.close()       
+        outfile.close()  
+        os.remove('temporario.csv')     

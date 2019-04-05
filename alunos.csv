@@ -1,7 +1,7 @@
 nome,matricula,telefone,email,uffmail,status
 Luiza Fernandes Ferreira,105794,99999-9950,email@gmail.com,uffmail@id.uff.br,Ativo
 Nicolas Sousa Cavalcanti,100172,99999-9951,email@gmail.com,uffmail@id.uff.br,Ativo
-Leonor Cardoso Ferreira,100484,99999-9952,email@gmail.com,leonorcf@id.uff.br,Inativo
+Leonor Cardoso Ferreira,100484,99999-9952,email@gmail.com,,Inativo
 Vitor Fernandes Costa,100503,99999-9953,email@gmail.com,uffmail@id.uff.br,Ativo
 Julia Cavalcanti Silva,101369,99999-9954,email@gmail.com,,Inativo
 Gabriela Santos Ribeiro,109647,99999-9955,email@gmail.com,,Ativo
@@ -17,7 +17,7 @@ Caua Rocha Lima,107354,99999-9964,email@gmail.com,,Ativo
 Danilo Cavalcanti Dias,107428,99999-9965,email@gmail.com,uffmail@id.uff.br,Ativo
 Erick Sousa Carvalho,102779,99999-9966,email@gmail.com,uffmail@id.uff.br,Ativo
 Vitoria Cavalcanti Lima,103387,99999-9967,email@gmail.com,uffmail@id.uff.br,Ativo
-Luiza Alves Cardoso,100142,99999-9968,email@gmail.com,,Ativo
+Luiza Alves Cardoso,100142,99999-9968,email@gmail.com,luizaac@id.uff.br,Ativo
 Caua Melo Alves,105226,99999-9969,email@gmail.com,,Ativo
 Aline Ferreira Barros,100460,99999-9970,email@gmail.com,uffmail@id.uff.br,Inativo
 Laura Azevedo Cunha,105457,99999-9971,email@gmail.com,,Ativo
@@ -29,4 +29,4 @@ Beatrice Lima Pinto,101200,99999-9976,email@gmail.com,,Inativo
 Davi Fernandes Alves,100943,99999-9977,email@gmail.com,uffmail@id.uff.br,Ativo
 Vitor Alves Rodrigues,106447,99999-9978,email@gmail.com,uffmail@id.uff.br,Inativo
 Andre Cunha Fernandes,106942,99999-9979,email@gmail.com,,Ativo
-Lucas Oliveira Barros,100591,99999-9980,email@gmail.com,,Ativo
+Lucas Oliveira Barros,100591,99999-9980,email@gmail.com,lucas_oliveira@id.uff.br,Ativo
