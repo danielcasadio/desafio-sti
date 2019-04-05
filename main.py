@@ -1,10 +1,5 @@
 from modulo_leitor import Leitor
-import requests
-from os import getcwd
 
-url = ""
-pasta = getcwd()
-arquivo = 
 r = Leitor('alunos.csv')
 
 print("Bem vindo ao Sistema Acadêmico.\n")
