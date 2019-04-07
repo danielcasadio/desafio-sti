@@ -18,6 +18,7 @@ O sistema foi feito usando Python 3.7 e compilado em arquivo executável (.exe) 
 - [csv](https://docs.python.org/3/library/csv.html/): Biblioteca nativa do python com funcionalidades focadas na leitura e escrita de arquivos do tipo .csv e .xls com ou sem organização (headers)
 - [random](https://docs.python.org/3/library/random.html/): Biblioteca nativa do python que tem como foco gerar números aleatórios.
 - [os](https://docs.python.org/3/library/os.html/): Biblioteca para acessar e manipular arquivos presentes na máquina onde o programa está sendo processado, muito útil para criação de arquivos temporários de auxílio e até mesmo arquivos permanentes.
+
 ### Programa principal
 - modulo_acesso.py: Módulo composto pela classe Leitor e funções que auxiliam na leitura, processamento e modificação do arquivo utilizado no desafio
 - [urllib.request](https://docs.python.org/3/library/urllib.request.html#module-urllib.request/): Biblioteca nativa utilizada para acessar URLs e a função request para download de arquivos dada URL.
