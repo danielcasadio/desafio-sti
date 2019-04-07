@@ -14,7 +14,7 @@ r.busca_usuario(matr)
 
 print("Obrigado pela visita!")
 
-input("Pressione qualquer ENTER para fechar o programa")
+input("Pressione a tecla ENTER para fechar o programa")
 
 
 
