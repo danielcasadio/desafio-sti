@@ -32,7 +32,11 @@ O sistema foi feito usando Python 3.7 e compilado em arquivo executável (.exe) 
   
 - grava_email(matricula)
   Esta função recebe a matrícula do usuário que gerou um UFFMail, então cria um arquivo temporário para cópia do original. Após isso, o arquivo original é esvaziado e reescrito modificando o dado do aluno cuja matrícula for a mesma recebida. O arquivo temporário é deletado após esse processamento para ser novamente criado na próxima vez que o programa for utilizado.
-  
+
+
+## Funções do programa principal (main.py)
+
+Para dar início ao processamento, o programa busca pelo arquivo 'alunos.csv', caso não encontre, acessa o repositório da STI e faz o download do arquivo. Todo o resto do processamento é feito pelo modulo_leitor.py.
 
 ## Como utilizar
 
