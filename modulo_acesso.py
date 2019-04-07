@@ -13,6 +13,7 @@ class Leitor:
             for row in reader:
                 print(row['nome'])
         f.close()
+   
     def busca_usuario(self, matricula):
         if(matricula != 0):
             found = False
@@ -25,7 +26,7 @@ class Leitor:
                         nome = row['nome'].split()
                         if(row['uffmail'] == ''):
                             print("\nOlá " + nome[0] + ", por favor escolha uma das opções abaixo para seu UFFMail:")
-                            email = self.opcoes_mail(nome)
+                            email = self.opcoes_email(nome)
                             self.grava_email(email, matricula)
                             print ("\nA criação do seu email ("+email+") será feita nos próximos minutos\nUm SMS foi enviado para " + row['telefone']+ " com a sua senha de acesso")
                         else:
@@ -37,7 +38,8 @@ class Leitor:
             f.close()
         else:
             exit(1)
-    def opcoes_mail(self, nome):
+    
+    def opcoes_email(self, nome):
         nome = [i.lower() for i in nome]
         opt=[]
         tamanho = len(nome)

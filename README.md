@@ -25,13 +25,13 @@ O sistema foi feito usando Python 3.7 e compilado em arquivo executável (.exe) 
 
 ## Funções da classe Leitor
 - busca_usuario(matricula)
-  A função consiste em percorrer o documento e procurar no mesmo a linha que tem matricula correspondente ao dado informado pelo usuário, caso exista, verifica se o usuário possui UFFMail, senão possuir, a função opcoes_mail é chamada para dar as opções possíveis para o usuário. Após isso a função grava_email(matricula) é chamada para modificar o arquivo original, atualizando a listagem de alunos que possuem UFFMail
+  A função consiste em percorrer o documento e procurar no mesmo a linha que tem matrícula correspondente ao dado informado pelo usuário, caso exista, verifica se o usuário possui UFFMail, se não possuir, a função opcoes_mail é chamada para dar as opções possíveis para o usuário. Após isso a função grava_email(matricula) é chamada para modificar o arquivo original, atualizando a listagem de alunos que possuem UFFMail
   
 - opcoes_mail(nome)
   A função recebe o nome do usuário (passada através da função busca_usuario) e monta algumas opções de e-mail para o mesmo, a opção escolhida é retornada.
   
 - grava_email(matricula)
-  Esta função recebe a matricula do usuário que gerou um UFFMail, então cria um arquivo temporário para cópia do original. Após isso, o arquivo original é esvaziado e reescrito modificando o dado do aluno cuja matrícula for a mesma recebida. O arquivo temporário é deletado após esse processamento para ser novamente criado na próxima vez que o programa for utilizado.
+  Esta função recebe a matrícula do usuário que gerou um UFFMail, então cria um arquivo temporário para cópia do original. Após isso, o arquivo original é esvaziado e reescrito modificando o dado do aluno cuja matrícula for a mesma recebida. O arquivo temporário é deletado após esse processamento para ser novamente criado na próxima vez que o programa for utilizado.
   
 
 ## Como utilizar
